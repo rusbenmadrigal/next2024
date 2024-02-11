@@ -18,7 +18,7 @@ export default function Home() {
             By{' '}
             <Image
               src="/vercel.svg"
-              alt="Vercel Logo 22"
+              alt="Vercel Logo 2024"
               className={styles.vercelLogo}
               width={100}
               height={24}
@@ -71,7 +71,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Templates <span>-&gt;</span>
+            Testing <span>-&gt;</span>
           </h2>
           <p>Explore the Next.js 13 playground.</p>
         </a>
@@ -86,7 +86,7 @@ export default function Home() {
             Deploy <span>-&gt;</span>
           </h2>
           <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+             deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
       </div>
