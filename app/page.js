@@ -71,7 +71,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Testing <span>-&gt;</span>
+            Templates <span>-&gt;</span>
           </h2>
           <p>Explore the Next.js 13 playground.</p>
         </a>
@@ -86,7 +86,7 @@ export default function Home() {
             Deploy <span>-&gt;</span>
           </h2>
           <p>
-             deploy your Next.js site to a shareable URL with Vercel.
+            Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
       </div>
