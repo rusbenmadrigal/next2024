@@ -1,9 +1,9 @@
-function Tienda() {
+function Store() {
   return (
     <div>
-      <h1>Tienda</h1>
+      <h1>Store</h1>
     </div>
   );
 }
 
-export default Tienda;
+export default Store;
