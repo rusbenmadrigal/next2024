@@ -4,7 +4,6 @@ function Navbar() {
   return (
     <nav>
       <h1>My Blog</h1>
-
       <ul>
         <li>
           <Link href="/">Home1</Link>
