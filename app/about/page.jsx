@@ -5,7 +5,6 @@ export const metadata = {
   metadataBase: new URL("https://acme.com"),
   title: "About Page",
   description: "This is the about page",
-  canonical: "/",
   alternates: {
     canonical: "/",
   },
