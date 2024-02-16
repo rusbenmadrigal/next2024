@@ -1,8 +1,13 @@
-export const metadata = {
-  title: "About page",
-  description: "A page about stuff",
-};
 function AboutPage() {
   return <h1>About Page</h1>;
 }
+export const metadata = {
+  metadataBase: new URL("https://acme.com"),
+  title: "About Page",
+  description: "This is the about page",
+  canonical: "/",
+  alternates: {
+    canonical: "/",
+  },
+};
 export default AboutPage;
