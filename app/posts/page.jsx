@@ -4,7 +4,6 @@ async function loadPosts() {
   const data = await res.json();
   return data;
 }
-
 async function PostPage() {
   const posts = await loadPosts();
 
@@ -12,7 +11,6 @@ async function PostPage() {
     <div>
       {posts.map((post) => (
         <PostCard key={post.id} post={post} />
-       
       ))}
     </div>
   );
