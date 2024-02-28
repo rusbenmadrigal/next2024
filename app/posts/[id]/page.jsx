@@ -14,7 +14,7 @@ export default async function Page({ params }) {
       </h1>
       <p>{post.body}</p>
       <h3>Related Articles</h3>
-      <Suspense fallback={<div>Loading posts...</div>}>
+      <Suspense fallback={<div>Loading more posts...</div>}>
         <PostPage />
       </Suspense>
     </div>
